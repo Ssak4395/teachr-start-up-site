@@ -3,7 +3,7 @@ import {
   About,
   Explore,
   Feedback,
-  GetStarted,
+  Solaimon,
   Hero,
   Insights,
   WhatsNew,
@@ -20,7 +20,7 @@ const Page = () => (
       <Explore />
     </div>
     <div className="relative">
-      <GetStarted />
+      <Solaimon />
       <div className="gradient-04 z-0" />
       <WhatsNew />
     </div>

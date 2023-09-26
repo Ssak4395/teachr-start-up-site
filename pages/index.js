@@ -3,12 +3,15 @@ import {
   About,
   Explore,
   Feedback,
-  GetStarted,
+  Solaimon,
   Hero,
   Insights,
   WhatsNew,
   World,
 } from "../sections";
+import Sadman from "../sections/Sadman";
+import Tahsin from "../sections/Tahsin";
+import Ryan from "../sections/Ryan";
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -20,17 +23,25 @@ const Home = () => (
       <Explore />
     </div>
     <div className="relative">
-      <GetStarted />
+      <Solaimon />
       <div className="gradient-04 z-0" />
-      <WhatsNew />
     </div>
-    <World />
+      <div className="relative">
+          <Sadman />
+          <div className="gradient-04 z-0" />
+      </div>
+      <div className="relative">
+          <Tahsin />
+          <div className="gradient-04 z-0" />
+      </div>
+      <div className="relative">
+          <Ryan />
+          <div className="gradient-04 z-0" />
+      </div>
     <div className="relative">
       <Insights />
       <div className="gradient-04 z-0" />
-      <Feedback />
     </div>
-    <Footer />
   </div>
 );
 

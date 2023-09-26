@@ -14,25 +14,22 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| About Teachr.sydney" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[10px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white "
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{" "}
+        <span className="font-extrabold text-white">Teachr</span> is a online tutorial and learning management platform, making education avaliable every-where, even in the most remote parts of  <span className="font-extrabold text-white">Australia.</span>
+          {" "} Aimed at primary, high school and HSC students we provide
         <span className="font-extrabold text-white">
           {" "}
-          madness of the metaverse{" "}
+          bite sized and long form{" "}
         </span>{" "}
-        of today, using only{" "}
-        <span className="font-extrabold text-white"> VR </span> devices you can
-        easily explore the world you want, turn your dreams into reality. Let's{" "}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        tutorial videos that are fun and highly{" "}
+        <span className="font-extrabold text-white"> engaging. </span> Simply connect to our platform using a device of your <span className="font-extrabold text-white">choice</span>{" "}
+        and get ready to {" "}
+        <span className="font-extrabold text-white">blast off</span> to a realm of higher grades and better test results!
       </motion.p>
 
       <motion.img

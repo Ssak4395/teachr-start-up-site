@@ -42,9 +42,27 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  "Find a world that suits you and you want to enter",
-  "Enter the world by reading Har Har Mahadev to be safe",
-  "No need to beat around the bush, just stay on the gas and have fun",
+  "Bachelor of Advanced Computing & Marketing @ University Of Sydney",
+  "Currently working in Cloud Sales at IBM",
+  "Responsible for liasing with investors and spearheading strategic decisions",
+];
+
+export const SadmanStarter = [
+  "Bachelor of Engineering (Honours, First Class) Software Engineering (University Of Sydney)",
+  "Algorithmic Trader at Macquarie Capital",
+  "Drives strategic technology decision making.",
+];
+
+export const TahsinAbedin = [
+  "Bachelor of Engineering (Honours) Software Engineering (University Of Sydney)",
+  "Some-Text-Here",
+  "Responsible for technology/feature ideation and development",
+];
+
+export const RyanUddin = [
+  "Bachelor of Advanced Mathematics & Computer Science (UNSW)",
+  "Some-Text-Here",
+  "Feature development, design and general developer activities.",
 ];
 
 export const newFeatures = [
@@ -65,21 +83,21 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: Planet_6,
-    title: "The launch of the Metaverse makes Elon musk ketar-ketir",
+    title: "Prospectus",
     subtitle:
-      "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+      "A overview of the value proposition that sets Teachr apart from its competitors.",
   },
   {
     imgUrl: Planet_7,
-    title: "7 tips to easily master the madness of the Metaverse",
+    title: "Proof of Concept (Demo)",
     subtitle:
-      "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+      "A proof of concept that emulates a proposed production version of Teachr",
   },
   {
     imgUrl: Planet_8,
-    title: "With one platform you can explore the whole world virtually",
+    title: "SWOT Analysis and Product Market Fit",
     subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+      "A SWOT analysis and product market fit for our proposed product.",
   },
 ];
 
